@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
 	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
       <fileDesc>
@@ -18,44 +18,15 @@
             <p>Information about the source</p>
          </sourceDesc>
       </fileDesc>
-     <encodingDesc>
-        <classDecl>
-           <taxonomy>
-              <category xml:id="person">
-                 <catDesc>People</catDesc>
-              </category>
-              <category xml:id="currency">
-                 <catDesc>Money</catDesc>
-              </category>
-              <category xml:id="clothes">
-                 <catDesc>Clothing</catDesc>
-              </category>
-              <category xml:id="town">
-                 <catDesc>Town</catDesc>
-              </category>
-              <category xml:id="building">
-                 <catDesc>building</catDesc>
-              </category>
-              <category xml:id="furniture">
-                 <catDesc>Furniture</catDesc>
-              </category>
-              <category xml:id="plant">
-                 <catDesc>Plant</catDesc>
-              </category>
-              <category xml:id="Food">
-                 <catDesc>Food</catDesc>
-              </category>
-           </taxonomy>
-        </classDecl>
-     </encodingDesc>
+     
   </teiHeader>
   <text>
       <body>
-         <div type = "chapter" n = "5">
-           <head>Chapter 5: Diagon Alley</head>
+        
+          <head>Chapter 5: Diagon Alley</head>
 
 <p>
-   <l><persName ref = "#person">Harry</persName> woke early the next morning. Although he could tell it was daylight, he kept his eyes shut tight.</l>
+   <l><persName type = "friend">Harry</persName> woke early the next morning. Although he could tell it was daylight, he kept his eyes shut tight.</l>
 
    <l>“It was a dream,” he told himself firmly. “I dreamed a giant called <persName ref = "#person">Hagrid</persName> came to tell me I was going to a school for <orgName>wizards</orgName>. When I open my eyes I’ll be at <placeName ref = "#building">home</placeName> in my cupboard.”</l>
 
@@ -655,7 +626,7 @@ of WITCHCRAFT and WIZARDRY</l>
 
    <l>The <objectName>train</objectName> pulled out of the station. <persName>Harry</persName> wanted to watch <persName>Hagrid</persName> until he was out of sight; he rose in his seat and pressed his nose against the window, but he blinked and <persName>Hagrid</persName> had gone.</l>
 </p>
-         </div>
+         
       </body>
   </text>
 </TEI>
