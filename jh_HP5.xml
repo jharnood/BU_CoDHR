@@ -1,0 +1,661 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Harry Potter and the Socerer's Stone</title>
+         </titleStmt>
+         <editionStmt>
+            <edition>Electronic edition</edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>CoDHR</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+     <encodingDesc>
+        <classDecl>
+           <taxonomy>
+              <category xml:id="person">
+                 <catDesc>People</catDesc>
+              </category>
+              <category xml:id="currency">
+                 <catDesc>Money</catDesc>
+              </category>
+              <category xml:id="clothes">
+                 <catDesc>Clothing</catDesc>
+              </category>
+              <category xml:id="town">
+                 <catDesc>Town</catDesc>
+              </category>
+              <category xml:id="building">
+                 <catDesc>building</catDesc>
+              </category>
+              <category xml:id="furniture">
+                 <catDesc>Furniture</catDesc>
+              </category>
+              <category xml:id="plant">
+                 <catDesc>Plant</catDesc>
+              </category>
+              <category xml:id="Food">
+                 <catDesc>Food</catDesc>
+              </category>
+           </taxonomy>
+        </classDecl>
+     </encodingDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type = "chapter" n = "5">
+           <head>Chapter 5: Diagon Alley</head>
+
+<p>
+   <l><persName ref = "#person">Harry</persName> woke early the next morning. Although he could tell it was daylight, he kept his eyes shut tight.</l>
+
+   <l>“It was a dream,” he told himself firmly. “I dreamed a giant called <persName ref = "#person">Hagrid</persName> came to tell me I was going to a school for <orgName>wizards</orgName>. When I open my eyes I’ll be at <placeName ref = "#building">home</placeName> in my cupboard.”</l>
+
+   <l>There was suddenly a loud tapping noise.</l>
+
+   <l>And there’s <persName ref ="#person">Aunt Petunia</persName> knocking on the <objectName>door</objectName>, Harry thought, his heart sinking. But he still didn’t open his eyes. It had been such a good dream.</l>
+
+   <l>Tap. Tap. Tap.</l>
+
+   <l>“All right,” <persName>Harry</persName> mumbled, “I’m getting up.”</l>
+
+   <l>He sat up and <persName>Hagrid’s</persName> heavy <objectName>coat</objectName> fell off him. The <objectName>hut</objectName> was full of sunlight, the storm was over, <persName>Hagrid</persName> himself was asleep on the collapsed <objectName>sofa</objectName>, and there was an owl rapping its claw on the <placeName>window</placeName>, a <objectName>newspaper</objectName> held in its beak. </l>
+
+   <l><persName>Harry</persName> scrambled to his feet, so happy he felt as though a large <objectName>balloon</objectName> was swelling inside him. He went straight to the <placeName>window</placeName> and jerked it open. The owl swooped in and dropped the <placeName>newspaper</placeName> on top of <persName>Hagrid</persName>, who didn’t wake up. The owl then fluttered onto the <placeName>floor</placeName> and began to attack <persName>Hagrid’s</persName> <objectName>coat</objectName>.</l>
+
+   <l>“Don’t do that.”</l>
+
+   <l><persName>Harry</persName> tried to wave the owl out of the way, but it snapped its beak fiercely at him and carried on savaging the <objectName>coat</objectName>.</l>
+
+   <l>“<persName>Hagrid</persName>!” said <persName>Harry</persName> loudly. “There’s an owl —”</l>
+
+   <l>“Pay him,” <persName>Hagrid</persName> grunted into the <objectName>sofa</objectName>.</l>
+
+   <l>“What?”</l>
+
+   <l>“He wants payin’ fer deliverin’ the <objectName>paper</objectName>. Look in the <placeName>pockets</placeName>.”</l>
+
+   <l><persName>Hagrid’s</persName> <objectName>coat</objectName> seemed to be made of nothing but pockets — bunches of <objectName>keys</objectName>, <objectName>slug pellets</objectName>, <objectName>balls of string</objectName>, <objectName>peppermint humbugs</objectName>, <objectName>teabags</objectName> … finally, <persName>Harry</persName> pulled out a handful of strange-looking <objectName>coins</objectName>.</l>
+
+   <l>“Give him five <objectName>Knuts</objectName>,” said <persName>Hagrid</persName> sleepily.</l>
+
+   <l>“<objectName>Knuts</objectName>?”</l>
+
+   <l>“The little bronze ones.”</l>
+
+   <l><persName>Harry</persName> counted out five little bronze <objectName>coins</objectName>, and the owl held out his leg so <persName>Harry</persName> could put the <objectName>money</objectName> into a small leather <placeName>pouch</placeName> tied to it. Then he flew off through the open <placeName>window</placeName>.</l>
+
+   <l><persName>Hagrid</persName> yawned loudly, sat up, and stretched.</l>
+
+   <l>“Best be off, <persName>Harry</persName>, lots ter do today, gotta get up ter <placeName>London</placeName> an’ buy all yer stuff fer school.”</l>
+
+   <l><persName>Harry</persName> was turning over the wizard <objectName>coins</objectName> and looking at them. He had just thought of something that made him feel as though the happy <objectName>balloon</objectName> inside him had got a puncture.</l>
+
+   <l>“Um — <persName>Hagrid</persName>?”</l>
+
+   <l>“Mm?” said <persName>Hagrid</persName>, who was pulling on his huge <objectName>boots</objectName>.</l>
+
+   <l>“I haven’t got any money — and you heard Uncle <persName>Vernon</persName> last night … he won’t pay for me to go and learn magic.”</l>
+
+   <l>“Don’t worry about that,” said <persName>Hagrid</persName>, standing up and scratching his head. “D’yeh think yer parents didn’t leave yeh anything?”</l>
+
+   <l>“But if their <placeName>house</placeName> was destroyed —”</l>
+
+   <l>“They didn’ keep their <objectName>gold</objectName> in the <placeName>house</placeName>, boy! Nah, first stop fer us is <orgName>Gringotts</orgName>. <placeName>Wizards’ bank</placeName>. Have a sausage, they’re not bad cold — an’ I wouldn’ say no teh a bit o’ yer birthday <objectName>cake</objectName>, neither.”</l>
+
+   <l>“Wizards have <orgName>banks</orgName>?”</l>
+
+   <l>“Just the one. <placeName>Gringotts</placeName>. Run by goblins.”</l>
+
+   <l><persName>Harry</persName> dropped the bit of <objectName>sausage</objectName> he was holding.</l>
+
+   <l>“Goblins?”</l>
+
+   <l>“Yeah — so yeh’d be mad ter try an’ rob it, I’ll tell yeh that. Never mess with goblins, <persName>Harry</persName>. <orgName>Gringotts</orgName> is the safest place in the <placeName>world</placeName> fer anything yeh want ter keep safe — ’cept maybe <placeName>Hogwarts</placeName>. As a matter o’ fact, I gotta visit <orgName>Gringotts</orgName> anyway Fer <persName>Dumbledore</persName>. <placeName>Hogwarts</placeName> business.” <persName>Hagrid</persName> drew himself up proudly. “He usually gets me ter do important stuff fer him. Fetchin’ you — gettin’ things from <orgName>Gringotts</orgName> — knows he can trust me, see.</l>
+
+   <l>“Got everythin’? Come on, then.”</l>
+
+   <l><persName>Harry</persName> followed <persName>Hagrid</persName> out onto the <objectName>rock</objectName>. The sky was quite clear now and the sea gleamed in the sunlight. The <objectName>boat</objectName> Uncle <persName>Vernon</persName> had hired was still there, with a lot of water in the bottom after the storm.</l>
+
+   <l>“How did you get here?” <persName>Harry</persName> asked, looking around for another <objectName>boat</objectName>.</l>
+
+   <l>“Flew,” said <persName>Hagrid</persName>.</l>
+
+   <l>“Flew?”</l>
+
+   <l>“Yeah — but we’ll go back in this. Not s’pposed ter use magic now I’ve got yeh.”</l>
+
+   <l>They settled down in the <objectName>boat</objectName>, <persName>Harry</persName> still staring at <persName>Hagrid</persName>, trying to imagine him flying.</l>
+
+   <l>“Seems a shame ter row, though,” said <persName>Hagrid</persName>, giving <persName>Harry</persName> another of his sideways looks. “If I was ter — er — speed things up a bit, would yeh mind not mentionin’ it at <placeName>Hogwarts</placeName>?”</l>
+
+   <l>“Of course not,” said <persName>Harry</persName>, eager to see more magic. <persName>Hagrid</persName> pulled out the pink <objectName>umbrella</objectName> again, tapped it twice on the side of the <objectName>boat</objectName>, and they sped off toward <placeName>land</placeName>.</l>
+
+   <l>“Why would you be mad to try and rob <orgName>Gringotts</orgName>?” Harry asked.</l>
+
+   <l>“Spells — enchantments,” said <persName>Hagrid</persName>, unfolding his <objectName>newspaper</objectName> as he spoke. “They say there’s dragons guardin’ the high-security <placeName>vaults</placeName>. And then yeh gotta find yer way — <orgName>Gringotts</orgName> is hundreds of miles under <placeName>London</placeName>, see. Deep under the <placeName>Underground</placeName>. Yeh’d die of hunger tryin’ ter get out, even if yeh did manage ter get yer hands on summat.”</l>
+
+   <l><persName>Harry</persName> sat and thought about this while <persName>Hagrid</persName> read his <objectName>newspaper</objectName>, the <orgName>Daily Prophet</orgName>. <persName>Harry</persName> had learned from Uncle <persName>Vernon</persName> that people liked to be left alone while they did this, but it was very difficult, he’d never had so many questions in his life.</l>
+
+   <l>“Ministry o’ Magic messin’ things up as usual,” <persName>Hagrid</persName> muttered, turning the page.</l>
+
+   <l>“There’s a Ministry of Magic?” <persName>Harry</persName> asked, before he could stop himself.</l>
+
+   <l>“ ’Course,” said <persName>Hagrid</persName>. “They wanted <persName>Dumbledore</persName> fer Minister, o’ course, but he’d never leave <placeName>Hogwarts</placeName>, so old <persName>Cornelius Fudge</persName> got the job. Bungler if ever there was one. So he pelts <persName>Dumbledore</persName> with owls every morning, askin’ fer advice.”</l>
+
+   <l>“But what does a <orgName>Ministry of Magic</orgName> do?”</l>
+
+   <l>“Well, their main job is to keep it from the <persName>Muggles</persName> that there’s still witches an’ wizards up an’ down the <placeName>country</placeName>.”</l>
+
+   <l>“Why?”</l>
+
+   <l>“Why? Blimey, <persName>Harry</persName>, everyone’d be wantin’ magic solutions to their problems. Nah, we’re best left alone.”</l>
+
+   <l>At this moment the <persName>boat</persName> bumped gently into the harbor wall. <persName>Hagrid</persName> folded up his <objectName>newspaper</objectName>, and they clambered up the stone steps onto the <placeName>street</placeName>.</l>
+
+   <l>Passersby stared a lot at <persName>Hagrid</persName> as they walked through the little <placeName>town</placeName> to the <placeName>station</placeName>. <persName>Harry</persName> couldn’t blame them. Not only was <persName>Hagrid</persName> twice as tall as anyone else, he kept pointing at perfectly ordinary things like <objectName>parking meters</objectName> and saying loudly, “See that, <persName>Harry</persName>? Things these <persName>Muggles</persName> dream up, eh?”</l>
+
+   <l>“<persName>Hagrid</persName>,” said <persName>Harry</persName>, panting a bit as he ran to keep up, “did you say there are dragons at <orgName>Gringotts</orgName>?”</l>
+
+   <l>“Well, so they say,” said <persName>Hagrid</persName>. “Crikey, I’d like a dragon.”</l>
+
+   <l>“You’d like one?”</l>
+
+   <l>“Wanted one ever since I was a kid — here we go.”</l>
+
+   <l>They had reached the station. There was a train to <placeName>London</placeName> in five minutes’ time. <persName>Hagrid</persName>, who didn’t understand “<persName>Muggle</persName> money,” as he called it, gave the <objectName>bills</objectName> to <persName>Harry</persName> so he could buy their <objectName>tickets</objectName>.</l>
+
+   <l>People stared more than ever on the train. <persName>Hagrid</persName> took up two seats and sat knitting what looked like a canary-yellow circus <objectName>tent</objectName>.</l>
+
+   <l>“Still got yer <objectName>letter</objectName>, <persName>Harry</persName>?” he asked as he counted stitches.</l>
+
+   <l><persName>Harry</persName> took the parchment <objectName>envelope</objectName> out of his pocket.</l>
+
+   <l>“Good,” said <persName>Hagrid</persName>. “There’s a list there of everything yeh need.”</l>
+
+   <l><persName>Harry</persName> unfolded a second piece of <objectName>paper</objectName> he hadn’t noticed the night before, and read:</l>
+
+
+
+   <l><placeName>HOGWARTS</placeName> SCHOOL
+
+of WITCHCRAFT and WIZARDRY</l>
+
+
+
+   <l>UNIFORM</l>
+
+   <l>First-year students will require:</l>
+   <list>
+   <item>1. Three sets of plain work <objectName>robes</objectName> (black)</item>
+
+   <item>2. One plain pointed <objectName>hat</objectName> (black) for day wear</item>
+
+   <item>3. One pair of protective <objectName>gloves</objectName> (dragon hide or similar)</item>
+
+   <item>4. One winter <objectName>cloak</objectName> (black, silver fastenings)</item>
+      </list>
+
+<l>Please note that all pupils’ clothes should carry name tags</l>
+
+
+
+   <l>COURSE BOOKS</l>
+
+   <l>All students should have a copy of each of the following:</l>
+<list>
+<item>The Standard Book of Spells (Grade 1) by <persName type = "author">Miranda Goshawk</persName></item>
+
+   <item>A History of Magic by <persName type = "author">Bathilda Bagshot</persName></item>
+
+   <item>Magical Theory by <persName type = "author">Adalbert Waffling</persName></item>
+
+   <item>A Beginners’ Guide to Transfiguration by <persName type = "author">Emeric Switch</persName></item>
+
+   <item>One Thousand Magical <objectName>Herbs</objectName> and <objectName>Fungi</objectName> by <persName type = "author">Phyllida Spore</persName></item>
+
+   <item>Magical Drafts and <objectName>Potions</objectName> by <persName type = "author">Arsenius Jigger</persName></item>
+
+   <item>Fantastic Beasts and Where to Find Them by <persName type = "author">Newt Scamander</persName></item>
+
+   <item>The Dark Forces: A Guide to Self-Protection by <persName type = "author">Quentin Trimble</persName></item>
+</list>
+
+
+
+   <l>OTHER EQUIPMENT</l>
+<list>
+   <item>1 <objectName>wand</objectName></item>
+
+   <item>1 <objectName>cauldron</objectName> (pewter, standard size 2)</item>
+
+   <item>1 set glass or crystal <objectName>phials</objectName></item>
+
+   <item>1 <objectName>telescope</objectName></item>
+
+   <item>1 set brass <objectName>scales</objectName></item>
+   </list>
+
+<l>Students may also bring an owl OR a cat OR a toad</l>
+
+
+
+   <l>PARENTS ARE REMINDED THAT FIRST YEARS ARE NOT ALLOWED THEIR OWN <objectName>BROOMSTICKS</objectName></l>
+
+
+
+   <l>“Can we buy all this in <placeName>London</placeName>?” <persName>Harry</persName> wondered aloud.</l>
+
+   <l>“If yeh know where to go,” said <persName>Hagrid</persName>.</l>
+
+
+
+   <l><persName>Harry</persName> had never been to <placeName>London</placeName> before. Although <persName>Hagrid</persName> seemed to know where he was going, he was obviously not used to getting there in an ordinary way. He got stuck in the <objectName>ticket barrier</objectName> on the <placeName>Underground</placeName>, and complained loudly that the <objectName>seats</objectName> were too small and the <objectName>trains</objectName> too slow.</l>
+
+   <l>“I don’t know how the <persName>Muggles</persName> manage without magic,” he said as they climbed a broken-down <objectName>escalator</objectName> that led up to a bustling <objectName>road</objectName> lined with shops.</l>
+
+   <l><persName>Hagrid</persName> was so huge that he parted the crowd easily; all <persName>Harry</persName> had to do was keep close behind him. They passed <placeName>book shops</placeName> and <placeName>music stores</placeName>, <placeName>hamburger restaurants</placeName> and <placeName>cinemas</placeName>, but nowhere that looked as if it could sell you a <objectName>magic wand</objectName>. This was just an ordinary <placeName>street</placeName> full of ordinary people. Could there really be piles of <objectName>wizard gold</objectName> buried miles beneath them? Were there really shops that sold <objectName>spell books</objectName> and <objectName>broomsticks</objectName>? Might this not all be some huge joke that the <persName>Dursleys</persName> had cooked up? If <persName>Harry</persName> hadn’t known that the <persName>Dursleys</persName> had no sense of humor, he might have thought so; yet somehow, even though everything <persName>Hagrid</persName> had told him so far was unbelievable, <persName>Harry</persName> couldn’t help trusting him.</l>
+
+   <l>“This is it,” said <persName>Hagrid</persName>, coming to a halt, “the <placeName>Leaky Cauldron</placeName>. It’s a famous place.”</l>
+
+   <l>It was a tiny, grubby-looking <placeName>pub</placeName>. If <persName>Hagrid</persName> hadn’t pointed it out, <persName>Harry</persName> wouldn’t have noticed it was there. The people hurrying by didn’t glance at it. Their eyes slid from the big book shop on one side to the <placeName>record shop</placeName> on the other as if they couldn’t see the <placeName>Leaky Cauldron</placeName> at all. In fact, <persName>Harry</persName> had the most peculiar feeling that only he and <persName>Hagrid</persName> could see it. Before he could mention this, <persName>Hagrid</persName> had steered him inside.</l>
+
+   <l>For a famous place, it was very dark and shabby. A few old women were sitting in a corner, drinking tiny glasses of sherry. One of them was smoking a long <objectName>pipe</objectName>. A little man in a <objectName>top hat</objectName> was talking to the old bartender, who was quite bald and looked like a toothless <objectName>walnut</objectName>. The low buzz of chatter stopped when they walked in. Everyone seemed to know <persName>Hagrid</persName>; they waved and smiled at him, and the bartender reached for a glass, saying, “The usual, <persName>Hagrid</persName>?”</l>
+
+   <l>“Can’t, <persName>Tom</persName>, I’m on <placeName>Hogwarts</placeName> business,” said <persName>Hagrid</persName>, clapping his great hand on <persName>Harry’s</persName> shoulder and making <persName>Harry’s</persName> knees buckle.</l>
+
+   <l>“Good Lord,” said the bartender, peering at <persName>Harry</persName>, “is this — can this be — ?”</l>
+
+   <l>The <placeName>Leaky Cauldron</placeName> had suddenly gone completely still and silent.</l>
+
+   <l>“Bless my soul,” whispered the old bartender, “<persName>Harry Potter</persName> … what an honor.”</l>
+
+   <l>He hurried out from behind the bar, rushed toward <persName>Harry</persName> and seized his hand, tears in his eyes.</l>
+
+   <l>“Welcome back, <persName>Mr. Potter</persName>, welcome back.”</l>
+
+   <l><persName>Harry</persName> didn’t know what to say. Everyone was looking at him. The old woman with the <objectName>pipe</objectName> was puffing on it without realizing it had gone out. <persName>Hagrid</persName> was beaming.</l>
+
+   <l>Then there was a great scraping of <objectName>chairs</objectName> and the next moment, <persName>Harry</persName> found himself shaking hands with everyone in the <persName>Leaky Cauldron</persName>.</l>
+
+   <l>“<persName>Doris Crockford</persName>, <persName>Mr. Potter</persName>, can’t believe I’m meeting you at last.”</l>
+
+   <l>“So proud, <persName>Mr. Potter</persName>, I’m just so proud.”</l>
+
+   <l>“Always wanted to shake your hand — I’m all of a flutter.”</l>
+
+   <l>“Delighted, <persName>Mr. Potter</persName>, just can’t tell you, <persName>Diggle’s</persName> the name, <persName>Dedalus Diggle</persName>.”</l>
+
+   <l>“I’ve seen you before!” said <persName>Harry</persName>, as <persName>Dedalus Diggle’s</persName> top hat fell off in his excitement. “You bowed to me once in a shop.”</l>
+
+   <l>“He remembers!” cried <persName>Dedalus Diggle</persName>, looking around at everyone. “Did you hear that? He remembers me!”</l>
+
+   <l><persName>Harry</persName> shook hands again and again — <persName>Doris Crockford</persName> kept coming back for more.</l>
+
+   <l>A pale young man made his way forward, very nervously. One of his eyes was twitching.</l>
+
+   <l>“<persName>Professor Quirrell</persName>!” said <persName>Hagrid</persName>. “<persName>Harry</persName>, <persName>Professor Quirrell</persName> will be one of your teachers at <placeName>Hogwarts</placeName>.”</l>
+
+   <l>“P-P-<persName>Potter</persName>,” stammered Professor <persName>Quirrell</persName>, grasping <persName>Harry’s</persName> hand, “c-can’t t-tell you how p-pleased I am to meet you.”</l>
+
+   <l>“What sort of magic do you teach, Professor <persName>Quirrell</persName>?”</l>
+
+   <l>“D-Defense Against the D-D-Dark Arts,” muttered Professor <persName>Quirrell</persName>, as though he’d rather not think about it. “N-not that you n-need it, eh, P-P-<persName>Potter</persName>?” He laughed nervously. “You’ll be g-getting all your <objectName>equipment</objectName>, I suppose? I’ve g-got to p-pick up a new b-<objectName>book</objectName> on vampires, m-myself.” He looked terrified at the very thought.</l>
+
+   <l>But the others wouldn’t let Professor <persName>Quirrell</persName> keep <persName>Harry</persName> to himself. It took almost ten minutes to get away from them all. At last, <persName>Hagrid</persName> managed to make himself heard over the babble.</l>
+
+   <l>“Must get on — lots ter buy. Come on, <persName>Harry</persName>.”</l>
+
+   <l><persName>Doris Crockford</persName> shook <persName>Harry’s</persName> hand one last time, and <persName>Hagrid</persName> led them through the <placeName>bar</placeName> and out into a small, walled <placeName>courtyard</placeName>, where there was nothing but a <objectName>trash</objectName> can and a few <objectName>weeds</objectName>.</l>
+
+   <l><persName>Hagrid</persName> grinned at <persName>Harry</persName>.</l>
+
+   <l>“Told yeh, didn’t I? Told yeh you was famous. Even Professor <persName>Quirrell</persName> was tremblin’ ter meet yeh — mind you, he’s usually tremblin’.”</l>
+
+   <l>“Is he always that nervous?”</l>
+
+   <l>“Oh, yeah. Poor bloke. Brilliant mind. He was fine while he was studyin’ outta <objectName>books</objectName> but then he took a year off ter get some firsthand experience. … They say he met vampires in the <placeName>Black Forest</placeName>, and there was a nasty bit o’ trouble with a hag — never been the same since. Scared of the students, scared of his own subject — now, where’s me <objectName>umbrella</objectName>?”</l>
+
+   <l>Vampires? Hags? <persName>Harry’s</persName> head was swimming. <persName>Hagrid</persName>, meanwhile, was counting <objectName>bricks</objectName> in the <placeName>wall</placeName> above the <objectName>trash can</objectName>.</l>
+
+   <l>“Three up … two across …” he muttered. “Right, stand back, <persName>Harry</persName>.”</l>
+
+   <l>He tapped the wall three times with the point of his <objectName>umbrella</objectName>.</l>
+
+   <l>The <objectName>brick</objectName> he had touched quivered — it wriggled — in the middle, a small <placeName>hole</placeName> appeared — it grew wider and wider — a second later they were facing an <placeName>archway</placeName> large enough even for <persName>Hagrid</persName>, an <placeName>archway</placeName> onto a cobbled <placeName>street</placeName> that twisted and turned out of sight.</l>
+
+   <l>“Welcome,” said <persName>Hagrid</persName>, “to <placeName>Diagon Alley</placeName>.”</l>
+
+   <l>He grinned at <persName>Harry’s</persName> amazement. They stepped through the <placeName>archway</placeName>. <persName>Harry</persName> looked quickly over his shoulder and saw the <placeName>archway</placeName> shrink instantly back into solid <objectName>wall</objectName>.</l>
+
+   <l>The sun shone brightly on a stack of <objectName>cauldrons</objectName> outside the nearest shop. <objectName>Cauldrons</objectName> — All Sizes — Copper, Brass, Pewter, Silver — Self-Stirring — Collapsible, said a <objectName>sign</objectName> hanging over them.</l>
+
+   <l>“Yeah, you’ll be needin’ one,” said <persName>Hagrid</persName>, “but we gotta get yer <objectName>money</objectName> first.”</l>
+
+   <l><persName>Harry</persName> wished he had about eight more eyes. He turned his head in every direction as they walked up the <placeName>street</placeName>, trying to look at everything at once: the shops, the things outside them, the people doing their shopping. A plump woman outside an <placeName>Apothecary</placeName> was shaking her head as they passed, saying, “<objectName>Dragon liver</objectName>, sixteen <objectName>Sickles</objectName> an ounce, they’re mad.”</l>
+
+   <l>A low, soft hooting came from a dark shop with a <objectName>sign</objectName> saying <placeName>Eeylops Owl Emporium</placeName> — Tawny, Screech, Barn, Brown, and Snowy. Several boys of about <persName>Harry’s</persName> age had their noses pressed against a <objectName>window</objectName> with <objectName>broomsticks</objectName> in it. “Look,” <persName>Harry</persName> heard one of them say, “the new Nimbus Two Thousand — fastest ever —” There were shops selling <objectName>robes</objectName>, shops selling <objectName>telescopes</objectName> and strange silver <objectName>instruments</objectName> <persName>Harry</persName> had never seen before, <objectName>windows</objectName> stacked with <objectName>barrels</objectName> of bat spleens and eels’ eyes, tottering piles of spell <objectName>books</objectName>, <objectName>quills</objectName>, and rolls of <objectName>parchment</objectName>, potion <objectName>bottles</objectName>, <objectName>globes</objectName> of the moon. …</l>
+
+   <l>“<orgName>Gringotts</orgName>,” said <persName>Hagrid</persName>.</l>
+
+   <l>They had reached a snowy white <placeName>building</placeName> that towered over the other little shops. Standing beside its burnished bronze doors, wearing a uniform of scarlet and gold, was —</l>
+
+   <l>“Yeah, that’s a goblin,” said <persName>Hagrid</persName> quietly as they walked up the white stone steps toward him. The goblin was about a head shorter than Harry. He had a swarthy, clever face, a pointed beard and, <persName>Harry</persName> noticed, very long fingers and feet. He bowed as they walked inside. Now they were facing a second pair of <objectName>doors</objectName>, silver this time, with words engraved upon them:</l>
+
+
+
+   <l>Enter, stranger, but take heed</l>
+
+   <l>Of what awaits the sin of greed,</l>
+
+   <l>For those who take, but do not earn,</l>
+
+   <l>Must pay most dearly in their turn.</l>
+
+   <l>So if you seek beneath our floors</l>
+
+   <l>A treasure that was never yours,</l>
+
+   <l>Thief, you have been warned, beware</l>
+
+   <l>Of finding more than treasure there.</l>
+
+
+
+   <l>“Like I said, yeh’d be mad ter try an’ rob it,” said <persName>Hagrid</persName>.</l>
+
+   <l>A pair of goblins bowed them through the silver doors and they were in a vast <placeName>marble hall</placeName>. About a hundred more goblins were sitting on high <objectName>stools</objectName> behind a long <placeName>counter</placeName>, scribbling in large <objectName>ledgers</objectName>, weighing <objectName>coins</objectName> in brass <objectName>scales</objectName>, examining precious <objectName>stones</objectName> through <objectName>eyeglasses</objectName>. There were too many doors to count leading off the hall, and yet more goblins were showing people in and out of these. <persName>Hagrid</persName> and <persName>Harry</persName> made for the counter.</l>
+
+   <l>“Morning,” said <persName>Hagrid</persName> to a free goblin. “We’ve come ter take some money outta <persName>Mr. Harry Potter’s</persName> safe.”</l>
+
+   <l>“You have his <objectName>key</objectName>, sir?”</l>
+
+   <l>“Got it here somewhere,” said <persName>Hagrid</persName>, and he started emptying his pockets onto the counter, scattering a handful of moldy dog <objectName>biscuits</objectName> over the goblins <objectName>book</objectName> of numbers. The goblin wrinkled his nose. <persName>Harry</persName> watched the goblin on their right weighing a pile of rubies as big as glowing <objectName>coals</objectName>.</l>
+
+   <l>“Got it,” said <persName>Hagrid</persName> at last, holding up a tiny golden <objectName>key</objectName>.</l>
+
+   <l>The goblin looked at it closely.</l>
+
+   <l>“That seems to be in order.”</l>
+
+   <l>“An’ I’ve also got a <objectName>letter</objectName> here from Professor <persName>Dumbledore</persName>,” said <persName>Hagrid</persName> importantly, throwing out his chest. “It’s about the You-Know-What in vault seven hundred and thirteen.”</l>
+
+   <l>The goblin read the <objectName>letter</objectName> carefully.</l>
+
+   <l>“Very well,” he said, handing it back to <persName>Hagrid</persName>, “I will have someone take you down to both <objectName>vaults</objectName>. <persName>Griphook</persName>!”</l>
+
+   <l><persName>Griphook</persName> was yet another goblin. Once <persName>Hagrid</persName> had crammed all the dog <objectName>biscuits</objectName> back inside his pockets, he and <persName>Harry</persName> followed <persName>Griphook</persName> toward one of the doors leading off the hall.</l>
+
+   <l>“What’s the You-Know-What in vault seven hundred and thirteen?” <persName>Harry</persName> asked.</l>
+
+   <l>“Can’t tell yeh that,” said <persName>Hagrid</persName> mysteriously. “Very secret. <placeName>Hogwarts</placeName> business. <persName>Dumbledore’s</persName> trusted me. More’n my job’s worth ter tell yeh that.”</l>
+
+   <l><persName>Griphook</persName> held the door open for them. <persName>Harry</persName>, who had expected more marble, was surprised. They were in a narrow stone <placeName>passageway</placeName> lit with flaming <objectName>torches</objectName>. It sloped steeply downward and there were little railway tracks on the floor. <persName>Griphook</persName> whistled and a small cart came hurtling up the tracks toward them. They climbed in — <persName>Hagrid</persName> with some difficulty — and were off.</l>
+
+   <l>At first they just hurtled through a maze of twisting passages. <persName>Harry</persName> tried to remember, left, right, right, left, middle fork, right, left, but it was impossible. The rattling <objectName>cart</objectName> seemed to know its own way, because <persName>Griphook</persName> wasn’t steering.</l>
+
+   <l><persName>Harry’s</persName> eyes stung as the cold air rushed past them, but he kept them wide open. Once, he thought he saw a burst of fire at the end of a passage and twisted around to see if it was a dragon, but too late — they plunged even deeper, passing an underground lake where huge stalactites and stalagmites grew from the ceiling and floor.</l>
+
+   <l>“I never know,” <persName>Harry</persName> called to <persName>Hagrid</persName> over the noise of the <objectName>cart</objectName>, “what’s the difference between a <objectName>stalagmite</objectName> and a <objectName>stalactite</objectName>?”</l>
+
+   <l>“<objectName>Stalagmite’s</objectName> got an ‘m’ in it,” said <persName>Hagrid</persName>. “An’ don’ ask me questions just now, I think I’m gonna be sick.”</l>
+
+   <l>He did look very green, and when the <objectName>cart</objectName> stopped at last beside a small door in the passage wall, <persName>Hagrid</persName> got out and had to lean against the wall to stop his knees from trembling.</l>
+
+   <l><persName>Griphook</persName> unlocked the door. A lot of green smoke came billowing out, and as it cleared, <persName>Harry</persName> gasped. Inside were mounds of gold <objectName>coins</objectName>. Columns of <objectName>silver</objectName>. Heaps of little bronze <objectName>Knuts</objectName>.</l>
+
+   <l>“All yours,” smiled <persName>Hagrid</persName>.</l>
+
+   <l>All <persName>Harry’s</persName> — it was incredible. The <persName>Dursleys</persName> couldn’t have known about this or they’d have had it from him faster than blinking. How often had they complained how much <persName>Harry</persName> cost them to keep? And all the time there had been a small fortune belonging to him, buried deep under <placeName>London</placeName>.</l>
+
+   <l><persName>Hagrid</persName> helped <persName>Harry</persName> pile some of it into a <objectName>bag</objectName>.</l>
+
+   <l>“The gold ones are <objectName>Galleons</objectName>,” he explained. “Seventeen silver <objectName>Sickles</objectName> to a <objectName>Galleon</objectName> and twenty-nine <objectName>Knuts</objectName> to a <objectName>Sickle</objectName>, it’s easy enough. Right, that should be enough fer a couple o’ terms, we’ll keep the rest safe for yeh.” He turned to <persName
+      >Griphook</persName>. “<objectName>Vault</objectName> seven hundred and thirteen now, please, and can we go more slowly?”</l>
+
+   <l>One speed only,” said <persName>Griphook</persName>.</l>
+
+   <l>They were going even deeper now and gathering speed. The air became colder and colder as they hurtled round tight corners. They went rattling over an underground ravine, and <persName>Harry</persName> leaned over the side to try to see what was down at the dark bottom, but <persName>Hagrid</persName> groaned and pulled him back by the scruff of his neck.</l>
+
+   <l><objectName>Vault</objectName> seven hundred and thirteen had no keyhole.</l>
+
+   <l>“Stand back,” said <persName>Griphook</persName> importantly. He stroked the <objectName>door</objectName> gently with one of his long fingers and it simply melted away.</l>
+
+   <l>“If anyone but a <orgName>Gringotts</orgName> goblin tried that, they’d be sucked through the door and trapped in there,” said <persName>Griphook</persName>.</l>
+
+   <l>“How often do you check to see if anyone’s inside?” <persName>Harry</persName> asked.</l>
+
+   <l>“About once every ten years,” said <persName>Griphook</persName> with a rather nasty grin.</l>
+
+   <l>Something really extraordinary had to be inside this top security <objectName>vault</objectName>, <persName>Harry</persName> was sure, and he leaned forward eagerly, expecting to see fabulous <objectName>jewels</objectName> at the very least — but at first he thought it was empty. Then he noticed a grubby little <objectName>package</objectName> wrapped up in brown <objectName>paper</objectName> lying on the floor. <persName>Hagrid</persName> picked it up and tucked it deep inside his <objectName>coat</objectName>. <persName>Harry</persName> longed to know what it was, but knew better than to ask.</l>
+
+   <l>“Come on, back in this infernal <objectName>cart</objectName>, and don’t talk to me on the way back, it’s best if I keep me mouth shut,” said <persName>Hagrid</persName>.</l>
+
+      
+
+   <l>One wild <objectName>cart</objectName> ride later they stood blinking in the sunlight outside <orgName>Gringotts</orgName>. <persName>Harry</persName> didn’t know where to run first now that he had a <objectName>bag</objectName> full of money. He didn’t have to know how many <objectName>Galleons</objectName> there were to a pound to know that he was holding more money than he’d had in his whole life — more money than even <objectName>Dudley</objectName> had ever had.</l>
+
+   <l>“Might as well get yer uniform,” said <persName>Hagrid</persName>, nodding toward <persName>Madam Malkin’s</persName> <objectName>Robes</objectName> for All Occasions. “Listen, <persName>Harry</persName>, would yeh mind if I slipped off fer a pick-me-up in the <placeName>Leaky Cauldron</placeName>? I hate them <orgName>Gringotts</orgName> carts.” He did still look a bit sick, so <persName>Harry</persName> entered <persName>Madam Malkin’s</persName> shop alone, feeling nervous.</l>
+
+   <l><persName>Madam Malkin</persName> was a squat, smiling witch dressed all in mauve.</l>
+
+   <l>“<placeName>Hogwarts</placeName>, dear?” she said, when <persName>Harry</persName> started to speak. “Got the lot here — another young man being fitted up just now, in fact.”</l>
+
+   <l>In the back of the shop, a boy with a pale, pointed face was standing on a <objectName>footstool</objectName> while a second witch pinned up his long black <objectName>robes</objectName>. <persName>Madam Malkin</persName> stood <persName>Harry</persName> on a <objectName>stool</objectName> next to him, slipped a long <objectName>robe</objectName> over his head, and began to pin it to the right length.</l>
+
+   <l>“Hello,” said the boy, “<placeName>Hogwarts</placeName>, too?”</l>
+
+   <l>“Yes,” said <pRef>e</pRef>.</l>
+
+   <l>“My father’s next door buying my <objectName>books</objectName> and mother’s up the street looking at <objectName>wands</objectName>,” said the boy. He had a bored, drawling voice. “Then I’m going to drag them off to look at racing <objectName>brooms</objectName>. I don’t see why first years can’t have their own. I think I’ll bully father into getting me one and I’ll smuggle it in somehow.”</l>
+
+   <l><persName>Harry</persName> was strongly reminded of <persName>Dudley</persName>.</l>
+
+   <l>“Have you got your own <objectName>broom</objectName>?” the boy went on.</l>
+
+   <l>“No,” said <persName>Harry</persName>.</l>
+
+   <l>“Play Quidditch at all?”</l>
+
+   <l>“No,” <persName>Harry</persName> said again, wondering what on earth Quidditch could be.</l>
+
+   <l>“I do — Father says it’s a crime if I’m not picked to play for my House, and I must say, I agree. Know what House you’ll be in yet?”</l>
+
+   <l>“No,” said <persName>Harry</persName>, feeling more stupid by the minute.</l>
+
+   <l>“Well, no one really knows until they get there, do they, but I know I’ll be in <orgName>Slytherin</orgName>, all our family have been — imagine being in <orgName>Hufflepuff</orgName>, I think I’d leave, wouldn’t you?”</l>
+
+   <l>“Mmm,” said <persName>Harry</persName>, wishing he could say something a bit more interesting.</l>
+
+   <l>“I say, look at that man!” said the boy suddenly, nodding toward the front window. <persName>Hagrid</persName> was standing there, grinning at <persName>Harry</persName> and pointing at two large ice creams to show he couldn’t come in.</l>
+
+   <l>“That’s <persName>Hagrid</persName>,” said <persName>Harry</persName>, pleased to know something the boy didn’t. “He works at <placeName>Hogwarts</placeName>.”</l>
+
+   <l>“Oh,” said the boy, “I’ve heard of him. He’s a sort of servant, isn’t he?”</l>
+
+   <l>“He’s the gamekeeper,” said <persName>Harry</persName>. He was liking the boy less and less every second.</l>
+
+   <l>“Yes, exactly. I heard he’s a sort of savage — lives in a hut on the school grounds and every now and then he gets drunk, tries to do magic, and ends up setting fire to his <objectName>bed</objectName>.”</l>
+
+   <l>“I think he’s brilliant,” said <persName>Harry</persName> coldly.</l>
+
+   <l>“Do you?” said the boy, with a slight sneer. “Why is he with you? Where are your parents?”</l>
+
+   <l>“They’re dead,” said <persName>Harry</persName> shortly. He didn’t feel much like going into the matter with this boy.</l>
+
+   <l>“Oh, sorry,” said the other, not sounding sorry at all. “But they were our kind, weren’t they?”</l>
+
+   <l>“They were a witch and wizard, if that’s what you mean.”</l>
+
+   <l>“I really don’t think they should let the other sort in, do you? They’re just not the same, they’ve never been brought up to know our ways. Some of them have never even heard of <placeName>Hogwarts</placeName> until they get the letter, imagine. I think they should keep it in the old wizarding families. What’s your surname, anyway?”</l>
+
+   <l>But before <persName>Harry</persName> could answer, <persName>Madam Malkin</persName> said, “That’s you done, my dear,” and <persName>Harry</persName>, not sorry for an excuse to stop talking to the boy, hopped down from the <objectName>footstool</objectName>.</l>
+
+   <l>“Well, I’ll see you at <placeName>Hogwarts</placeName>, I suppose,” said the drawling boy.</l>
+
+   <l><persName>Harry</persName> was rather quiet as he ate the ice cream <persName>Hagrid</persName> had bought him (chocolate and raspberry with chopped nuts).</l>
+
+   <l>“What’s up?” said <persName>Hagrid</persName>.</l>
+
+   <l>“Nothing,” <persName>Harry</persName> lied. They stopped to buy <objectName>parchment</objectName> and <objectName>quills</objectName>. <persName>Harry</persName> cheered up a bit when he found a bottle of ink that changed color as you wrote. When they had left the shop, he said, “<persName>Hagrid</persName>, what’s Quidditch?”</l>
+
+   <l>“Blimey, <persName>Harry</persName>, I keep forgettin’ how little yeh know — not knowin’ about Quidditch!”</l>
+
+   <l>“Don’t make me feel worse,” said <persName>Harry</persName>. He told <persName>Hagrid</persName> about the pale boy in <persName>Madam Malkin’s</persName>.</l>
+
+   <l>“— and he said people from <persName>Muggle</persName> families shouldn’t even be allowed in —”</l>
+
+   <l>“Yer not from a <persName>Muggle</persName> family. If he’d known who yeh were — he’s grown up knowin’ yer name if his parents are wizardin’ folk. You saw what everyone in the <placeName>Leaky Cauldron</placeName> was like when they saw yeh. Anyway, what does he know about it, some o’ the best I ever saw were the only ones with magic in ’em in a long line o’ <persName>Muggles</persName> — look at yer mum! Look what she had fer a sister!”</l>
+
+   <l>“So what is Quidditch?”</l>
+
+   <l>“It’s our sport. Wizard sport. It’s like — like soccer in the <persName>Muggle</persName> world — everyone follows Quidditch — played up in the air on <objectName>broomsticks</objectName> and there’s four <objectName>balls</objectName> — sorta hard ter explain the rules.”</l>
+
+   <l>“And what are <orgName>Slytherin</orgName> and <orgName>Hufflepuff</orgName>?”</l>
+
+   <l>“School Houses. There’s four. Everyone says <orgName>Hufflepuff</orgName> are a lot o’ duffers, but —”</l>
+
+   <l>“I bet I’m in <orgName>Hufflepuff</orgName>,” said <persName>Harry</persName> gloomily.</l>
+
+   <l>“Better <orgName>Hufflepuff</orgName> than <orgName>Slytherin</orgName>,” said <persName>Hagrid</persName> darkly. “There’s not a single witch or wizard who went bad who wasn’t in <persName>Slytherin</persName>. You-Know-Who was one.”</l>
+
+   <l>“Vol-, sorry — <persName>You-Know-Who</persName> was at <placeName>Hogwarts</placeName>?”</l>
+
+   <l>“Years an’ years ago,” said <persName>Hagrid</persName>.</l>
+
+   <l>They bought <persName>Harry’s</persName> school books in a shop called <placeName>Flourish and Blotts</placeName> where the shelves were stacked to the ceiling with <objectName>books</objectName> as large as paving <objectName>stones</objectName> bound in leather; <objectName>books</objectName> the size of postage <objectName>stamps</objectName> in covers of silk; <objectName>books</objectName> full of peculiar symbols and a few <objectName>books</objectName> with nothing in them at all. Even <persName>Dudley</persName>, who never read anything, would have been wild to get his hands on some of these. <persName>Hagrid</persName> almost had to drag <persName>Harry</persName> away from Curses and Counter-curses (Bewitch Your Friends and Befuddle Your Enemies with the Latest Revenges: Hair Loss, Jelly-Legs, Tongue-Tying and Much, Much More) by Professor <persName>Vindictus Viridian</persName>.</l>
+
+   <l>“I was trying to find out how to curse <persName>Dudley</persName>.”</l>
+
+   <l>“I’m not sayin’ that’s not a good idea, but yer not ter use magic in the <persName>Muggle</persName> world except in very special circumstances,” said <persName>Hagrid</persName>. “An’ anyway, yeh couldn’ work any of them curses yet, yeh’ll need a lot more study before yeh get ter that level.”</l>
+
+   <l><persName>Hagrid</persName> wouldn’t let <persName>Harry</persName> buy a solid gold <objectName>cauldron</objectName>, either (“It says pewter on yer list”), but they got a nice set of <objectName>scales</objectName> for weighing potion ingredients and a collapsible brass <objectName>telescope</objectName>. Then they visited the <placeName>Apothecary</placeName>, which was fascinating enough to make up for its horrible smell, a mixture of bad <objectName>eggs</objectName> and rotted <objectName>cabbages</objectName>. Barrels of slimy stuff stood on the floor; jars of <objectName>herbs</objectName>, dried <objectName>roots</objectName>, and bright <objectName>powders</objectName> lined the walls; bundles of <objectName>feathers</objectName>, strings of <objectName>fangs</objectName>, and snarled <objectName>claws</objectName> hung from the ceiling. While <persName>Hagrid</persName> asked the man behind the counter for a supply of some basic potion ingredients for <persName>Harry</persName>, <persName>Harry</persName> himself examined silver <objectName>unicorn horns</objectName> at twenty-one <objectName>Galleons</objectName> each and minuscule, glittery-black <objectName>beetle eyes</objectName> (five <objectName>Knuts</objectName> a scoop).</l>
+
+   <l>Outside the <placeName>Apothecary</placeName>, <persName>Hagrid</persName> checked <persName>Harry’s</persName> list again.</l>
+
+   <l>“Just yer <objectName>wand</objectName> left — oh yeah, an’ I still haven’t got yeh a birthday <objectName>present</objectName>.”</l>
+
+   <l><persName>Harry</persName> felt himself go red.</l>
+
+   <l>“You don’t have to —”</l>
+
+   <l>“I know I don’t have to. Tell yeh what, I’ll get yer animal. Not a toad, toads went outta fashion years ago, yeh’d be laughed at — an’ I don’ like cats, they make me sneeze. I’ll get yer an owl. All the kids want owls, they’re dead useful, carry yer mail an’ everythin’.”</l>
+
+   <l>Twenty minutes later, they left <placeName>Eeylops Owl Emporium</placeName>, which had been dark and full of rustling and flickering, jewel-bright eyes. <persName>Harry</persName> now carried a large <objectName>cage</objectName> that held a beautiful snowy owl, fast asleep with her head under her wing. He couldn’t stop stammering his thanks, sounding just like Professor <persName>Quirrell</persName>.</l>
+
+   <l>“Don’ mention it,” said <persName>Hagrid</persName> gruffly. “Don’ expect you’ve had a lotta presents from them <persName>Dursleys</persName>. Just <placeName>Ollivanders</placeName> left now — only place fer <objectName>wands</objectName>, <placeName>Ollivanders</placeName>, and yeh gotta have the best <objectName>wand</objectName>.”</l>
+
+   <l>A magic <objectName>wand</objectName> … this was what <persName>Harry</persName> had been really looking forward to.</l>
+
+   <l>The last shop was narrow and shabby. Peeling gold letters over the door read <placeName>Ollivanders</placeName>: Makers of Fine <objectName>Wands</objectName> since 382b.c. A single <objectName>wand</objectName> lay on a faded purple <objectName>cushion</objectName> in the dusty window.</l>
+
+   <l>A tinkling <objectName>bell</objectName> rang somewhere in the depths of the shop as they stepped inside. It was a tiny place, empty except for a single, spindly chair that <persName>Hagrid</persName> sat on to wait. <persName>Harry</persName> felt strangely as though he had entered a very strict <placeName>library</placeName>; he swallowed a lot of new questions that had just occurred to him and looked instead at the thousands of narrow <objectName>boxes</objectName> piled neatly right up to the ceiling. For some reason, the back of his neck prickled. The very dust and silence in here seemed to tingle with some secret magic.</l>
+
+   <l>“Good afternoon,” said a soft voice. <persName>Harry</persName> jumped. <persName>Hagrid</persName> must have jumped, too, because there was a loud crunching noise and he got quickly off the spindly <objectName>chair</objectName>.</l>
+
+   <l>An old man was standing before them, his wide, pale eyes shining like moons through the gloom of the shop.</l>
+
+   <l>“Hello,” said <persName>Harry</persName> awkwardly.</l>
+
+   <l>“Ah yes,” said the man. “Yes, yes. I thought I’d be seeing you soon. <persName>Harry Potter</persName>.” It wasn’t a question. “You have your mother’s eyes. It seems only yesterday she was in here herself, buying her first <objectName>wand</objectName>. Ten and a quarter inches long, swishy, made of <objectName>willow</objectName>. Nice <objectName>wand</objectName> for charm work.”</l>
+
+   <l><persName>Mr. Ollivander</persName> moved closer to <persName>Harry</persName>. <persName>Harry</persName> wished he would blink. Those silvery eyes were a bit creepy.</l>
+
+   <l>“Your father, on the other hand, favored a mahogany <objectName>wand</objectName>. Eleven inches. Pliable. A little more power and excellent for transfiguration. Well, I say your father favored it — it’s really the <objectName>wand</objectName> that chooses the wizard, of course.”</l>
+
+   <l><persName>Mr. Ollivander</persName> had come so close that he and <persName>Harry</persName> were almost nose to nose. <persName>Harry</persName> could see himself reflected in those misty eyes.</l>
+
+   <l>“And that’s where …”</l>
+
+   <l><persName>Mr. Ollivander</persName> touched the lightning scar on <persName>Harry’s</persName> forehead with a long, white finger.</l>
+
+   <l>“I’m sorry to say I sold the wand that did it,” he said softly. “Thirteen-and-a-half inches. Yew. Powerful <objectName>wand</objectName>, very powerful, and in the wrong hands … well, if I’d known what that <objectName>wand</objectName> was going out into the world to do. …”</l>
+
+   <l>He shook his head and then, to <persName>Harry’s</persName> relief, spotted <persName>Hagrid</persName>.</l>
+
+   <l>“<persName>Rubeus</persName>! <persName>Rubeus Hagrid</persName>! How nice to see you again. … Oak, sixteen inches, rather bendy, wasn’t it?”</l>
+
+   <l>It was, sir, yes,” said <persName>Hagrid</persName>.</l>
+
+   <l>“Good <objectName>wand</objectName>, that one. But I suppose they snapped it in half when you got expelled?” said <persName>Mr. Ollivander</persName>, suddenly stern.</l>
+
+   <l>“Er — yes, they did, yes,” said <persName>Hagrid</persName>, shuffling his feet. “I’ve still got the pieces, though,” he added brightly.</l>
+
+   <l>“But you don’t use them?” said <persName>Mr. Ollivander</persName> sharply.</l>
+
+   <l>“Oh, no, sir,” said <persName>Hagrid</persName> quickly. <persName>Harry</persName> noticed he gripped his pink <objectName>umbrella</objectName> very tightly as he spoke.</l>
+
+   <l>“Hmmm,” said <persName>Mr. Ollivander</persName>, giving <persName>Hagrid</persName> a piercing look. “Well, now — <persName>Mr. Potter</persName>. Let me see.” He pulled a long <objectName>tape</objectName> measure with silver markings out of his pocket. “Which is your <objectName>wand</objectName> arm?”</l>
+
+   <l>“Er — well, I’m right-handed,” said <persName>Harry</persName>.</l>
+
+   <l>“Hold out your arm. That’s it.” He measured <persName>Harry</persName> from shoulder to finger, then wrist to elbow, shoulder to floor, knee to armpit and round his head. As he measured, he said, “Every <placeName>Ollivander</placeName> <objectName>wand</objectName> has a core of a powerful magical substance, Mr. Potter. We use unicorn <objectName>hairs</objectName>, phoenix tail <objectName>feathers</objectName>, and the <objectName>heartstrings of dragons</objectName>. No two <placeName>Ollivander</placeName> <objectName>wands</objectName> are the same, just as no two unicorns, dragons, or phoenixes are quite the same. And of course, you will never get such good results with another wizard’s <objectName>wand</objectName>.”</l>
+
+   <l><persName>Harry</persName> suddenly realized that the <objectName>tape measure</objectName>, which was measuring between his nostrils, was doing this on its own. <persName>Mr. Ollivander</persName> was flitting around the shelves, taking down <objectName>boxes</objectName>.</l>
+
+   <l>“That will do,” he said, and the <objectName>tape</objectName> measure crumpled into a heap on the floor. “Right then, <persName>Mr. Potter</persName>. Try this one. <objectName>Beech-wood</objectName> and <objectName>dragon heartstring</objectName>. Nine inches. Nice and flexible. Just take it and give it a wave.”</l>
+
+   <l><persName>Harry</persName> took the <objectName>wand</objectName> and (feeling foolish) waved it around a bit, but <persName>Mr. Ollivander</persName> snatched it out of his hand almost at once.</l>
+
+   <l>“Maple and phoenix <objectName>feather</objectName>. Seven inches. Quite whippy. Try —”</l>
+
+   <l><persName>Harry</persName> tried — but he had hardly raised the <objectName>wand</objectName> when it, too, was snatched back by <persName>Mr. Ollivander</persName>.</l>
+
+   <l>“No, no — here, ebony and unicorn <objectName>hair</objectName>, eight and a half inches, springy. Go on, go on, try it out.”</l>
+
+   <l><persName>Harry</persName> tried. And tried. He had no idea what <persName>Mr. Ollivander</persName> was waiting for. The pile of tried <objectName>wands</objectName> was mounting higher and higher on the spindly <objectName>chair</objectName>, but the more wands<persName> Mr. Ollivander</persName> pulled from the shelves, the happier he seemed to become.</l>
+
+      <l>“Tricky customer, eh? Not to worry, we’ll find the perfect match here somewhere — I wonder, now — yes, why not — unusual combination — holly and phoenix <objectName>feather</objectName>, eleven inches, nice and supple.”</l>
+
+      <l><persName>Harry</persName> took the <objectName>wand</objectName>. He felt a sudden warmth in his fingers. He raised the wand above his head, brought it swishing down through the dusty air and a stream of red and gold sparks shot from the end like a firework, throwing dancing spots of light on to the walls. <persName>Hagrid</persName> whooped and clapped and <persName>Mr. Ollivander</persName> cried, “Oh, bravo! Yes, indeed, oh, very good. Well, well, well … how curious … how very curious …”</l>
+
+      <l>He put <persName>Harry’s</persName> <objectName>wand</objectName> back into its <objectName>box</objectName> and wrapped it in brown <objectName>paper</objectName>, still muttering, “Curious … curious …”</l>
+
+      <l>“Sorry,” said <persName>Harry</persName>, “but what’s curious?”</l>
+
+      <l><persName>Mr. Ollivander</persName> fixed <persName>Harry</persName> with his pale stare.</l>
+
+      <l>“I remember every wand I’ve ever sold, <persName>Mr. Potter</persName>. Every single <objectName>wand</objectName>. It so happens that the phoenix whose tail <objectName>feather</objectName> is in your <objectName>wand</objectName>, gave another <objectName>feather</objectName> — just one other. It is very curious indeed that you should be destined for this <objectName>wand</objectName> when its brother — why, its brother gave you that scar.”</l>
+
+   <l><persName>Harry</persName> swallowed.</l>
+
+   <l>“Yes, thirteen-and-a-half inches. Yew. Curious indeed how these things happen. The <objectName>wand</objectName> chooses the wizard, remember. … I think we must expect great things from you, <persName>Mr. Potter</persName>. … After all, <persName>He-Who-Must-Not-Be-Named</persName> did great things — terrible, yes, but great.”</l>
+
+   <l><persName>Harry</persName> shivered. He wasn’t sure he liked <persName>Mr. Ollivander</persName> too much. He paid seven gold <objectName>Galleons</objectName> for his <objectName>wand</objectName>, and <persName>Mr. Ollivander</persName> bowed them from his shop.</l>
+
+
+
+   <l>The late afternoon sun hung low in the sky as <persName>Harry</persName> and <persName>Hagrid</persName> made their way back down <placeName>Diagon Alley</placeName>, back through the wall, back through the <placeName>Leaky Cauldron</placeName>, now empty. <persName>Harry</persName> didn’t speak at all as they walked down the road; he didn’t even notice how much people were gawking at them on the <placeName>Underground</placeName>, laden as they were with all their funny-shaped <objectName>packages</objectName>, with the snowy owl asleep in its <objectName>cage</objectName> on <persName>Harry</persName>’s lap. Up another escalator, out into <placeName>Paddington station</placeName>; <persName>Harry</persName> only realized where they were when <persName>Hagrid</persName> tapped him on the shoulder.</l>
+
+   <l>“Got time fer a bite to eat before yer train leaves,” he said.</l>
+
+   <l>He bought <persName>Harry</persName> a <objectName>hamburger</objectName> and they sat down on plastic <objectName>seats</objectName> to eat them. Harry kept looking around. Everything looked so strange, somehow.</l>
+
+   <l>“You all right, <eg>Harry</eg>? Yer very quiet,” said <eg>Hagrid</eg>.</l>
+
+   <l><eg>Harry</eg> wasn’t sure he could explain. He’d just had the best <date>birthday</date> of his life — and yet — he chewed his <objectName>hamburger</objectName>, trying to find the words.</l>
+
+   <l>“Everyone thinks I’m special,” he said at last. “All those people in the <placeName>Leaky Cauldron</placeName>, Professor <persName>Quirrell</persName>, <persName>Mr. Ollivander</persName> … but I don’t know anything about magic at all. How can they expect great things? I’m famous and I can’t even remember what I’m famous for. I don’t know what happened when Vol-, sorry — I mean, the <date>night my parents died</date>.”</l>
+
+   <l><persName>Hagrid</persName> leaned across the <objectName>table</objectName>. Behind the wild beard and eyebrows he wore a very kind smile.</l>
+
+   <l>“Don’ you worry, <persName>Harry</persName>. You’ll learn fast enough. Everyone starts at the beginning at <placeName>Hogwarts</placeName>, you’ll be just fine. Just be yerself. I know it’s hard. Yeh’ve been singled out, an’ that’s always hard. But yeh’ll have a great time at <placeName>Hogwarts</placeName> — I did — still do, ’smatter of fact.”</l>
+
+   <l><persName>Hagrid</persName> helped <persName>Harry</persName> on to the <objectName>train</objectName> that would take him back to the <persName>Dursleys</persName>, then handed him an <objectName>envelope</objectName>.</l>
+
+   <l>“Yer ticket fer <placeName>Hogwarts</placeName>,” he said. “<date>First o’ September</date> — <placeName>King’s Cross</placeName> — it’s all on yer <objectName>ticket</objectName>. Any problems with the <persName>Dursleys</persName>, send me a <objectName>letter</objectName> with yer owl, she’ll know where to find me. … See yeh soon, <persName>Harry</persName>.”</l>
+
+   <l>The <objectName>train</objectName> pulled out of the station. <persName>Harry</persName> wanted to watch <persName>Hagrid</persName> until he was out of sight; he rose in his seat and pressed his nose against the window, but he blinked and <persName>Hagrid</persName> had gone.</l>
+</p>
+         </div>
+      </body>
+  </text>
+</TEI>
